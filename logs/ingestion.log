@@ -1,0 +1,56 @@
+2025-08-15 11:47:33,574 - INFO - Live ingestion successful. Rows: 25
+2025-08-15 11:47:33,599 - INFO - Ingestion successful. Rows: 7068
+2025-08-15 11:48:39,662 - INFO - Live ingestion successful. Rows: 25
+2025-08-15 11:48:39,688 - INFO - Ingestion successful. Rows: 7068
+2025-08-15 11:52:26,290 - INFO - Static ingestion successful. Rows: 7043
+2025-08-15 11:52:26,293 - INFO - Live ingestion successful. Rows: 25
+2025-08-15 11:52:26,293 - INFO - Live ingestion successful. Rows: 25
+2025-08-15 11:52:26,319 - INFO - Ingestion successful. Rows: 7068
+2025-08-15 11:52:34,630 - INFO - Static ingestion successful. Rows: 7043
+2025-08-15 11:52:34,633 - INFO - Live ingestion successful. Rows: 25
+2025-08-15 11:52:34,658 - INFO - Ingestion successful. Rows: 7068
+2025-08-15 11:54:43,644 - RUN_ID:20250815115443 - INFO - Static ingestion successful. Rows: 7043
+2025-08-15 11:54:43,647 - RUN_ID:20250815115443 - INFO - Live ingestion successful. Rows: 25
+2025-08-15 11:54:43,672 - RUN_ID:20250815115443 - INFO - Ingestion successful. Rows: 7068
+2025-08-15 11:56:06,411 - RUN_ID:20250815115606 - INFO - Static ingestion successful. Rows: 7043
+2025-08-15 11:56:06,414 - RUN_ID:20250815115606 - INFO - Live ingestion successful. Rows: 25
+2025-08-15 11:56:06,440 - RUN_ID:20250815115606 - INFO - Ingestion successful. Rows: 7068
+2025-08-15 12:00:22 - INFO - Static ingestion successful. Rows: 7043
+2025-08-15 12:00:22 - INFO - Live ingestion successful. Rows: 25
+2025-08-15 12:00:22 - INFO - Ingestion successful. Rows: 7068
+2025-08-15 12:01:13 - INFO - Initiating flow
+2025-08-15 12:01:13 - INFO - Static ingestion successful. Rows: 7043
+2025-08-15 12:01:13 - INFO - Live ingestion successful. Rows: 25
+2025-08-15 12:01:13 - INFO - Ingestion successful. Rows: 7068
+2025-08-15 12:01:41 - INFO - --------------Initiating flow--------------
+2025-08-15 12:01:41 - INFO - Static ingestion successful. Rows: 7043
+2025-08-15 12:01:41 - INFO - Live ingestion successful. Rows: 25
+2025-08-15 12:01:41 - INFO - Ingestion successful. Rows: 7068
+2025-08-15 12:05:33 - INFO - --------------Initiating flow--------------
+2025-08-15 12:05:33 - INFO - Static ingestion successful. Rows: 7043
+2025-08-15 12:05:33 - INFO - Live ingestion successful. Rows: 25
+2025-08-15 12:05:33 - INFO - Ingestion successful. Rows: 7068
+2025-08-15 12:05:40 - INFO - --------------Initiating flow--------------
+2025-08-15 12:07:48 - INFO - --------------Initiating flow--------------
+2025-08-15 12:08:05 - INFO - --------------Initiating flow--------------
+2025-08-15 12:08:05 - ERROR - Live ingestion failed: [Errno 2] No such file or directory: 'data/Telco-Customer-Churn.csv'
+Traceback (most recent call last):
+  File "/home/vis3867/Kinara/BITS Mtech WILP/Semester-2/Assignment - DMML/customer_churn_pipeline/customer-churn-pipeline/ingest_live.py", line 12, in <module>
+    static_df = pd.read_csv(STATIC_DATA_PATH)
+  File "/home/vis3867/Kinara/BITS Mtech WILP/Semester-2/Assignment - DMML/customer_churn_pipeline/customer-churn-pipeline/dmml_venv/lib/python3.6/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/vis3867/Kinara/BITS Mtech WILP/Semester-2/Assignment - DMML/customer_churn_pipeline/customer-churn-pipeline/dmml_venv/lib/python3.6/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/vis3867/Kinara/BITS Mtech WILP/Semester-2/Assignment - DMML/customer_churn_pipeline/customer-churn-pipeline/dmml_venv/lib/python3.6/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/vis3867/Kinara/BITS Mtech WILP/Semester-2/Assignment - DMML/customer_churn_pipeline/customer-churn-pipeline/dmml_venv/lib/python3.6/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/vis3867/Kinara/BITS Mtech WILP/Semester-2/Assignment - DMML/customer_churn_pipeline/customer-churn-pipeline/dmml_venv/lib/python3.6/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 382, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas/_libs/parsers.pyx", line 674, in pandas._libs.parsers.TextReader._setup_parser_source
+FileNotFoundError: [Errno 2] No such file or directory: 'data/Telco-Customer-Churn.csv'
+2025-08-15 12:09:02 - INFO - --------------Initiating flow--------------
+2025-08-15 12:09:02 - ERROR - Live ingestion failed: [Errno 2] No such file or directory: 'data/Telco-Customer-Churn.csv'
+2025-08-15 12:10:00 - INFO - --------------Initiating flow--------------
+2025-08-15 12:10:00 - ERROR - Live ingestion failed: [Errno 2] No such file or directory: 'data/Telco-Customer-Churn.csv'

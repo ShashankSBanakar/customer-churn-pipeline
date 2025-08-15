@@ -1,0 +1,26 @@
+customerID,gender,SeniorCitizen,Partner,Dependents,tenure,PhoneService,MultipleLines,InternetService,OnlineSecurity,OnlineBackup,DeviceProtection,TechSupport,StreamingTV,StreamingMovies,Contract,PaperlessBilling,PaymentMethod,MonthlyCharges,TotalCharges,Churn
+LIVE-75P43B,Male,0,Yes,No,5,No,No phone service,Fiber optic,No internet service,No internet service,Yes,No internet service,No,No internet service,Two year,Yes,Electronic check,94.72,3789.2,No
+LIVE-FNVES0,Male,0,Yes,No,64,Yes,No phone service,No,No internet service,No internet service,No internet service,Yes,Yes,No,One year,No,Electronic check,92.44,5522.7,No
+LIVE-L10UQF,Female,1,No,No,6,No,Yes,Fiber optic,No,No,No,Yes,No internet service,No internet service,One year,No,Bank transfer (automatic),46.27,3670.5,Yes
+LIVE-LN8IGJ,Male,1,Yes,Yes,8,No,No phone service,Fiber optic,Yes,No,No,Yes,Yes,Yes,Two year,Yes,Mailed check,50.46,5564.85,No
+LIVE-7JDRQF,Male,0,Yes,Yes,62,Yes,No,No,No internet service,Yes,Yes,Yes,Yes,No,Two year,Yes,Mailed check,88.78,381.2,Yes
+LIVE-0472JZ,Male,1,Yes,No,41,Yes,No phone service,No,No,Yes,No,Yes,No internet service,No internet service,Month-to-month,No,Credit card (automatic),81.07,1937.4,Yes
+LIVE-MI067L,Female,0,Yes,Yes,14,Yes,Yes,DSL,No internet service,No internet service,Yes,No internet service,Yes,No internet service,Two year,Yes,Mailed check,94.83,239.75,Yes
+LIVE-Q54HX7,Male,0,Yes,Yes,54,No,No phone service,Fiber optic,No,No internet service,No internet service,Yes,No internet service,No,One year,No,Electronic check,87.02,228.75,No
+LIVE-73IYKN,Male,1,Yes,Yes,66,No,Yes,DSL,No,No internet service,No internet service,No internet service,Yes,Yes,Month-to-month,No,Electronic check,77.31,104.2,No
+LIVE-F1GQBX,Male,0,No,Yes,30,Yes,No phone service,DSL,Yes,No internet service,No,No internet service,Yes,No,Two year,No,Mailed check,89.61,1799.3,Yes
+LIVE-9DL3KU,Male,1,Yes,No,14,Yes,No,No,No,No,No internet service,No internet service,No internet service,No,One year,No,Bank transfer (automatic),19.47,4903.15,Yes
+LIVE-HQB469,Male,1,No,No,54,No,No phone service,Fiber optic,No internet service,No internet service,Yes,No,Yes,Yes,Two year,No,Credit card (automatic),83.39,3145.9,No
+LIVE-E5FXIF,Male,1,No,No,16,Yes,Yes,DSL,Yes,No internet service,No,No internet service,No internet service,No internet service,Month-to-month,Yes,Mailed check,22.35,857.75,Yes
+LIVE-TA6NUJ,Female,1,Yes,Yes,52,No,Yes,DSL,Yes,No,Yes,Yes,No,No internet service,Two year,Yes,Bank transfer (automatic),54.23,1505.15,No
+LIVE-CQ30C7,Male,1,No,No,23,Yes,Yes,DSL,No,Yes,No internet service,No,Yes,No,Month-to-month,No,Bank transfer (automatic),31.03,3645.6,Yes
+LIVE-EMI7CN,Male,1,No,Yes,31,Yes,No phone service,DSL,No,Yes,No internet service,No,Yes,Yes,Two year,Yes,Credit card (automatic),108.28,1750.7,No
+LIVE-Y0XADE,Male,0,No,No,10,No,Yes,No,No internet service,No,Yes,No,Yes,Yes,One year,Yes,Bank transfer (automatic),24.5,3334.95,Yes
+LIVE-2X1FKO,Male,0,No,No,64,No,No phone service,Fiber optic,Yes,No,No internet service,Yes,No,No internet service,One year,No,Credit card (automatic),44.51,221.35,No
+LIVE-EWQEHN,Male,0,No,Yes,59,No,No,DSL,No,No,Yes,Yes,Yes,No,Month-to-month,Yes,Electronic check,67.2,7689.95,Yes
+LIVE-KO6PUJ,Male,0,Yes,Yes,12,Yes,No,DSL,Yes,No,No internet service,No internet service,No internet service,No internet service,One year,Yes,Credit card (automatic),103.12,365.35,Yes
+LIVE-VKIPVM,Male,0,No,No,45,Yes,No,DSL,No internet service,No,No,Yes,Yes,No internet service,Month-to-month,No,Credit card (automatic),108.17,374.5,No
+LIVE-XT3A0T,Male,1,No,No,72,No,No phone service,No,Yes,No internet service,Yes,Yes,No internet service,No internet service,Month-to-month,No,Electronic check,42.98,135,No
+LIVE-E83CRV,Female,0,Yes,Yes,63,Yes,No phone service,No,Yes,No internet service,Yes,No,Yes,No internet service,One year,Yes,Bank transfer (automatic),100.07,1654.7,Yes
+LIVE-G56RO7,Female,0,Yes,Yes,22,No,Yes,DSL,Yes,Yes,No,No internet service,Yes,No,One year,No,Mailed check,54.44,703.55,No
+LIVE-QRI7TS,Female,1,No,Yes,45,No,No phone service,Fiber optic,No,No internet service,Yes,Yes,No internet service,No internet service,Two year,No,Electronic check,117.37,6840.95,Yes
