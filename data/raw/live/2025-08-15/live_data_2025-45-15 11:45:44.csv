@@ -1,0 +1,26 @@
+customerID,gender,SeniorCitizen,Partner,Dependents,tenure,PhoneService,MultipleLines,InternetService,OnlineSecurity,OnlineBackup,DeviceProtection,TechSupport,StreamingTV,StreamingMovies,Contract,PaperlessBilling,PaymentMethod,MonthlyCharges,TotalCharges,Churn
+LIVE-P2CVEE,Male,0,No,No,50,Yes,Yes,No,No,Yes,No internet service,No internet service,No internet service,Yes,One year,No,Bank transfer (automatic),41.5,19.85,No
+LIVE-U9HGS1,Male,0,No,Yes,14,Yes,No,Fiber optic,No internet service,Yes,No internet service,No internet service,Yes,No,One year,Yes,Electronic check,96.84,7008.15,Yes
+LIVE-0EIX6M,Male,1,Yes,Yes,32,No,No,Fiber optic,No internet service,No internet service,No,No,No internet service,No,Month-to-month,Yes,Electronic check,113.77,1476.25,No
+LIVE-PHZM8A,Male,0,Yes,No,20,No,No,DSL,No internet service,No internet service,No,No internet service,No,No,One year,Yes,Credit card (automatic),22.92,2168.15,Yes
+LIVE-1AT11Q,Female,1,No,No,4,No,No phone service,No,Yes,No,Yes,No,No,No,Month-to-month,No,Credit card (automatic),86.24,79.2,Yes
+LIVE-WMN5SZ,Male,1,No,Yes,1,No,No phone service,No,Yes,Yes,No internet service,Yes,No,No,Month-to-month,Yes,Mailed check,102.45,864.55,Yes
+LIVE-TCY34S,Female,0,No,No,23,Yes,Yes,Fiber optic,No internet service,No,No,No,Yes,Yes,Month-to-month,No,Mailed check,43.17,3541.4,No
+LIVE-QU7KG3,Male,0,No,No,54,No,Yes,DSL,Yes,Yes,No internet service,Yes,Yes,No,Month-to-month,Yes,Bank transfer (automatic),38.86,1124.2,No
+LIVE-UX5GYU,Female,1,No,Yes,54,Yes,No,Fiber optic,Yes,No,No,No,Yes,No internet service,Month-to-month,Yes,Electronic check,107.15,653.15,Yes
+LIVE-0QFADR,Male,1,Yes,Yes,31,No,No phone service,DSL,Yes,Yes,Yes,Yes,Yes,No internet service,Two year,Yes,Bank transfer (automatic),104.01,2753.8,No
+LIVE-XE7ZZD,Female,1,Yes,Yes,60,No,No,Fiber optic,No,No,Yes,No internet service,No internet service,Yes,Two year,Yes,Credit card (automatic),103.48,4820.15,No
+LIVE-7CHPW6,Male,1,No,Yes,33,No,No phone service,Fiber optic,Yes,No internet service,No,No internet service,Yes,No,One year,No,Electronic check,36.32,4753.85,No
+LIVE-K36AON,Female,1,No,No,22,Yes,Yes,Fiber optic,No,Yes,No,Yes,No internet service,No internet service,Month-to-month,No,Mailed check,94.49,449.75,No
+LIVE-VR81WE,Female,1,Yes,Yes,31,No,No,Fiber optic,No internet service,No internet service,No internet service,Yes,No internet service,Yes,Month-to-month,No,Credit card (automatic),81.53,678.45,Yes
+LIVE-0IOE6S,Female,1,No,No,56,Yes,Yes,DSL,Yes,Yes,No,Yes,No internet service,No internet service,Month-to-month,Yes,Electronic check,99.98,953.45,Yes
+LIVE-QIRQMD,Male,1,No,Yes,27,Yes,Yes,Fiber optic,Yes,No,No internet service,No internet service,No,No internet service,One year,Yes,Electronic check,50.95,780.15,Yes
+LIVE-M8W4LY,Female,0,No,Yes,31,No,No phone service,DSL,No,Yes,Yes,Yes,No,No,Two year,Yes,Credit card (automatic),37.95,1245.6,No
+LIVE-QPFLE9,Male,1,Yes,No,65,Yes,No,DSL,No internet service,No,Yes,No,No,No internet service,Month-to-month,Yes,Electronic check,19.36,2854.55,Yes
+LIVE-M1C9MA,Male,1,Yes,Yes,58,Yes,No phone service,Fiber optic,No,Yes,No,No,No internet service,No,Two year,No,Mailed check,19.99,30.5,No
+LIVE-A6QMG8,Male,1,No,Yes,33,No,No,No,No internet service,No internet service,No internet service,No,No,Yes,Two year,Yes,Credit card (automatic),27.2,4017.45,No
+LIVE-KII2G4,Female,0,Yes,Yes,25,Yes,No,No,No,Yes,Yes,Yes,Yes,No,Month-to-month,No,Credit card (automatic),98.02,3030.6,No
+LIVE-OX0CXI,Female,1,Yes,No,5,Yes,Yes,No,Yes,No,No,No,No,No,Two year,No,Credit card (automatic),50.16,34.8,No
+LIVE-H7Z8PC,Female,0,No,Yes,1,No,No phone service,Fiber optic,No internet service,No internet service,No,No,Yes,No,One year,Yes,Credit card (automatic),95.55,683.75,Yes
+LIVE-BHTF5B,Male,0,Yes,No,68,No,No phone service,DSL,No internet service,No,No,No,No internet service,No internet service,One year,Yes,Electronic check,32.94,6000.1,No
+LIVE-T4F7CW,Female,0,Yes,No,17,Yes,Yes,Fiber optic,No internet service,No,No,No internet service,No internet service,Yes,Month-to-month,Yes,Electronic check,40.46,274.35,Yes

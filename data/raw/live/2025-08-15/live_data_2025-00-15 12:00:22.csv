@@ -1,0 +1,26 @@
+customerID,gender,SeniorCitizen,Partner,Dependents,tenure,PhoneService,MultipleLines,InternetService,OnlineSecurity,OnlineBackup,DeviceProtection,TechSupport,StreamingTV,StreamingMovies,Contract,PaperlessBilling,PaymentMethod,MonthlyCharges,TotalCharges,Churn
+LIVE-40QFQN,Male,1,Yes,Yes,60,Yes,No,No,Yes,No internet service,Yes,No internet service,No internet service,No internet service,Month-to-month,Yes,Bank transfer (automatic),75.09,700.45,Yes
+LIVE-CDOHI6,Female,1,No,Yes,54,Yes,No,No,No,No,No internet service,No internet service,No,No internet service,Two year,No,Credit card (automatic),56.93,6431.05,Yes
+LIVE-NZH159,Male,1,No,Yes,23,No,Yes,Fiber optic,No internet service,No internet service,Yes,No internet service,Yes,No internet service,Two year,No,Electronic check,39.13,4707.1,Yes
+LIVE-LJJLTV,Female,1,Yes,Yes,72,No,No phone service,No,No,Yes,No internet service,Yes,No,No internet service,One year,Yes,Electronic check,26.09,6511.8,Yes
+LIVE-ZP5J8L,Male,0,No,Yes,24,No,No,DSL,No,No,No,No,Yes,No internet service,One year,Yes,Credit card (automatic),101.74,137.1,Yes
+LIVE-IY6KRX,Male,0,No,No,16,No,No phone service,DSL,Yes,No internet service,No internet service,Yes,No internet service,No internet service,Two year,Yes,Electronic check,52.17,4949.1,Yes
+LIVE-U1TWMS,Male,1,No,Yes,19,Yes,No,Fiber optic,No internet service,Yes,No,Yes,Yes,Yes,One year,Yes,Bank transfer (automatic),108.41,6014.85,No
+LIVE-7EF0K8,Female,1,No,Yes,63,No,Yes,No,No,No internet service,No internet service,No,No,Yes,One year,No,Electronic check,38.92,1815.3,Yes
+LIVE-4MX7LC,Female,0,Yes,No,45,Yes,No phone service,DSL,No,No,Yes,No internet service,No internet service,No internet service,Month-to-month,No,Mailed check,22.56,3846.75,No
+LIVE-I0LUYS,Male,1,No,No,29,Yes,No,DSL,No,No,Yes,Yes,Yes,No internet service,Two year,Yes,Electronic check,83.96,239.05,Yes
+LIVE-O04K86,Female,0,No,No,21,No,No phone service,No,No internet service,Yes,No,Yes,No,No internet service,Month-to-month,Yes,Electronic check,75.37,3856.75,No
+LIVE-M6I1VD,Female,0,No,Yes,6,No,No phone service,No,No internet service,No,Yes,No internet service,No internet service,No,One year,No,Electronic check,72.54,5330.2,No
+LIVE-WQ2WRI,Female,0,No,No,55,Yes,Yes,DSL,Yes,No internet service,No,No internet service,No,Yes,One year,No,Electronic check,83.76,7758.9,No
+LIVE-X6PK52,Male,0,Yes,No,44,Yes,No phone service,No,No internet service,Yes,Yes,No internet service,No,Yes,One year,Yes,Bank transfer (automatic),28.74,505.95,Yes
+LIVE-DCDBWD,Male,1,Yes,Yes,6,No,No phone service,No,No internet service,No internet service,No internet service,No internet service,Yes,No,One year,No,Electronic check,62.94,1305.95,Yes
+LIVE-O10UKQ,Male,1,Yes,No,29,No,No,No,Yes,Yes,No,Yes,Yes,No,Month-to-month,No,Credit card (automatic),81.82,4746.05,No
+LIVE-L7K655,Female,1,No,No,26,No,No,No,No,No internet service,No internet service,No internet service,No,No,Month-to-month,Yes,Bank transfer (automatic),66.29,1346.2,Yes
+LIVE-ZXTUB8,Male,1,No,Yes,18,No,No,Fiber optic,Yes,No internet service,No internet service,No,Yes,Yes,Month-to-month,No,Electronic check,25.61,4868.4,No
+LIVE-OQWS95,Female,1,No,No,45,Yes,No,Fiber optic,Yes,No,No,No internet service,Yes,No internet service,Month-to-month,Yes,Bank transfer (automatic),26.5,1185,Yes
+LIVE-LH2F63,Female,1,No,No,2,No,No,Fiber optic,No,Yes,No internet service,No,No,No internet service,Month-to-month,Yes,Mailed check,27.97,4447.75,Yes
+LIVE-1SWCW4,Male,0,No,Yes,59,Yes,No phone service,DSL,Yes,Yes,No internet service,No,No internet service,No,One year,No,Bank transfer (automatic),61.48,6786.4,No
+LIVE-CVUW2P,Male,1,No,Yes,3,Yes,No,DSL,No internet service,No,Yes,No internet service,Yes,No internet service,Month-to-month,Yes,Bank transfer (automatic),33.69,521.9,No
+LIVE-VQTK6L,Female,1,No,No,14,Yes,Yes,DSL,No,No,Yes,Yes,No internet service,No internet service,One year,No,Bank transfer (automatic),100.88,6823.4,No
+LIVE-PL0BRW,Female,1,No,Yes,40,No,Yes,No,No,No,No,Yes,No,No,One year,Yes,Electronic check,81.1,326.65,Yes
+LIVE-XT1M1D,Male,0,Yes,Yes,34,Yes,No phone service,Fiber optic,No internet service,No internet service,Yes,Yes,No internet service,Yes,One year,No,Bank transfer (automatic),94.91,786.3,No
