@@ -1,0 +1,26 @@
+customerID,gender,SeniorCitizen,Partner,Dependents,tenure,PhoneService,MultipleLines,InternetService,OnlineSecurity,OnlineBackup,DeviceProtection,TechSupport,StreamingTV,StreamingMovies,Contract,PaperlessBilling,PaymentMethod,MonthlyCharges,TotalCharges,Churn
+LIVE-NB06LC,Female,1,No,No,22,Yes,Yes,Fiber optic,Yes,No,No internet service,No,Yes,No internet service,Two year,No,Credit card (automatic),76.02,228,Yes
+LIVE-66LUMY,Female,0,Yes,Yes,60,Yes,Yes,DSL,Yes,No,No internet service,Yes,No,No internet service,Two year,Yes,Credit card (automatic),82.79,688.65,Yes
+LIVE-024WIZ,Female,1,No,No,32,Yes,No,DSL,No internet service,No internet service,No internet service,No,No internet service,No internet service,Two year,No,Bank transfer (automatic),47.12,6631.85,No
+LIVE-3AE2GB,Female,0,Yes,Yes,27,Yes,Yes,DSL,No internet service,No,No internet service,No internet service,No,Yes,Month-to-month,No,Bank transfer (automatic),51.22,839.4,Yes
+LIVE-4LOX1A,Male,0,Yes,Yes,69,No,Yes,DSL,No,No,No,No internet service,Yes,No,Two year,Yes,Mailed check,79.76,595.5,No
+LIVE-GDYGRE,Female,0,Yes,No,10,No,Yes,Fiber optic,Yes,No internet service,No,No internet service,No internet service,No internet service,Two year,Yes,Electronic check,68.71,1297.35,No
+LIVE-DXJ6RZ,Male,1,No,Yes,71,Yes,No,No,No,No internet service,No internet service,No,No internet service,Yes,Month-to-month,No,Electronic check,25.31,2669.45,Yes
+LIVE-5OLS2I,Female,1,No,No,51,No,Yes,Fiber optic,No internet service,Yes,No internet service,No,No internet service,Yes,One year,Yes,Mailed check,86.15,417.65,Yes
+LIVE-2CQAN7,Female,1,Yes,No,23,Yes,No,Fiber optic,No,No,Yes,No,Yes,No,One year,No,Electronic check,101.39,62.05,No
+LIVE-RD8MU6,Male,1,Yes,Yes,55,Yes,Yes,Fiber optic,No internet service,No internet service,No,No,No internet service,No internet service,Month-to-month,Yes,Credit card (automatic),79.87,2799,Yes
+LIVE-L594EG,Male,1,No,No,61,Yes,No phone service,No,No,No internet service,Yes,No internet service,No internet service,No internet service,One year,Yes,Electronic check,106.25,4386.2,No
+LIVE-KD1GRT,Male,0,No,No,50,No,No,Fiber optic,No internet service,No,No internet service,Yes,No,No internet service,One year,No,Mailed check,113.29,7511.9,No
+LIVE-NDTEVM,Female,1,No,Yes,53,No,Yes,DSL,No,No,Yes,No internet service,Yes,No,Two year,No,Credit card (automatic),57.56,6263.8,No
+LIVE-E9FI0Y,Male,1,Yes,Yes,67,Yes,Yes,Fiber optic,No,Yes,No,Yes,No,No internet service,Month-to-month,Yes,Bank transfer (automatic),58.22,136.05,Yes
+LIVE-XAKRCX,Female,0,Yes,Yes,42,No,No,DSL,No,Yes,No,No internet service,No internet service,No,One year,Yes,Mailed check,101.66,486.2,Yes
+LIVE-XWF59Q,Female,0,Yes,No,49,Yes,Yes,No,Yes,Yes,No internet service,Yes,No,No internet service,Month-to-month,No,Electronic check,72.84,639.45,Yes
+LIVE-JYNTZQ,Male,0,No,Yes,40,No,Yes,Fiber optic,No internet service,No internet service,Yes,No internet service,Yes,Yes,One year,Yes,Mailed check,115.76,3829.75,No
+LIVE-O1O57V,Male,0,No,Yes,66,Yes,Yes,No,No,No internet service,No,No internet service,No,No internet service,One year,Yes,Credit card (automatic),85.87,784.25,Yes
+LIVE-TE1LZV,Male,0,Yes,No,39,Yes,No phone service,DSL,Yes,No,Yes,Yes,No internet service,Yes,One year,Yes,Credit card (automatic),64.23,3121.1,Yes
+LIVE-DV83BB,Male,1,Yes,No,27,Yes,No phone service,No,No,No internet service,Yes,No,Yes,Yes,Month-to-month,No,Mailed check,110.03,467.55,Yes
+LIVE-N612A4,Male,1,Yes,Yes,11,No,No phone service,DSL,Yes,No,Yes,Yes,Yes,No internet service,Two year,Yes,Credit card (automatic),34.12,2596.15,No
+LIVE-7F58GQ,Male,0,No,No,44,No,No,DSL,No internet service,No internet service,No internet service,No,Yes,Yes,Two year,No,Bank transfer (automatic),65.7,869.9,No
+LIVE-B68QNY,Female,0,Yes,No,20,Yes,Yes,DSL,No,Yes,Yes,Yes,Yes,No,Two year,No,Mailed check,118.15,38.15,No
+LIVE-9CHMH7,Male,1,Yes,No,36,No,No,DSL,Yes,No,No,Yes,No internet service,No,One year,No,Bank transfer (automatic),59.86,7337.55,Yes
+LIVE-7ZD4YT,Male,1,Yes,No,48,Yes,Yes,Fiber optic,No internet service,No,No,Yes,No internet service,Yes,One year,No,Bank transfer (automatic),67.23,1546.3,No

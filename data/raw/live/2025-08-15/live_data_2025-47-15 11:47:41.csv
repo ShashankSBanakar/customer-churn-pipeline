@@ -1,0 +1,26 @@
+customerID,gender,SeniorCitizen,Partner,Dependents,tenure,PhoneService,MultipleLines,InternetService,OnlineSecurity,OnlineBackup,DeviceProtection,TechSupport,StreamingTV,StreamingMovies,Contract,PaperlessBilling,PaymentMethod,MonthlyCharges,TotalCharges,Churn
+LIVE-2YP0C2,Male,1,Yes,Yes,33,No,Yes,No,Yes,No internet service,Yes,No internet service,No internet service,No internet service,Month-to-month,No,Mailed check,91.16,6572.85,Yes
+LIVE-AP70H5,Female,1,No,Yes,41,No,No phone service,Fiber optic,Yes,Yes,No internet service,No,No,No,One year,Yes,Mailed check,63.54,903.7,No
+LIVE-JYXBX4,Male,1,Yes,Yes,44,No,No,Fiber optic,Yes,Yes,Yes,No internet service,Yes,Yes,Month-to-month,Yes,Electronic check,59.38,3110.1,No
+LIVE-3HZTGP,Female,0,No,No,13,No,Yes,No,No,No,Yes,No internet service,Yes,Yes,Month-to-month,Yes,Credit card (automatic),54.4,3180.5,Yes
+LIVE-WNJ1GL,Female,0,No,No,28,Yes,No,No,Yes,Yes,Yes,No,No,No,Two year,No,Electronic check,56.27,661.55,Yes
+LIVE-HOZMMJ,Female,1,No,No,0,No,No phone service,No,Yes,No internet service,Yes,No,Yes,No internet service,Month-to-month,No,Credit card (automatic),53.62,239.05,Yes
+LIVE-ZFRGYP,Male,0,No,No,61,No,Yes,No,No,No internet service,No,Yes,No,No internet service,One year,Yes,Credit card (automatic),113.85,7711.45,No
+LIVE-128CDY,Male,1,Yes,Yes,27,Yes,Yes,Fiber optic,No internet service,No,Yes,Yes,No,No internet service,Month-to-month,No,Mailed check,75.74,4590.35,No
+LIVE-Q22BQ1,Female,1,No,Yes,65,Yes,No phone service,DSL,No,Yes,Yes,Yes,Yes,No,Two year,Yes,Bank transfer (automatic),31.94,3313.4,No
+LIVE-1Y8W65,Male,0,Yes,No,21,Yes,No,No,No,No,No internet service,No internet service,No internet service,No,Month-to-month,Yes,Bank transfer (automatic),45.45,1275.85,No
+LIVE-SMGTJL,Male,1,Yes,No,29,No,Yes,DSL,Yes,Yes,No internet service,No,No internet service,No,One year,No,Bank transfer (automatic),108.88,520,Yes
+LIVE-F54AN4,Male,0,Yes,No,31,No,Yes,No,No,Yes,No,Yes,Yes,No,Month-to-month,No,Credit card (automatic),25.76,685.55,No
+LIVE-IJUKRB,Female,0,No,Yes,14,No,Yes,DSL,No,No,Yes,Yes,No internet service,No,Two year,No,Electronic check,74.44,6388.65,No
+LIVE-DDIDVT,Female,0,Yes,Yes,12,Yes,No,No,No,No internet service,No internet service,No internet service,No internet service,Yes,Month-to-month,No,Bank transfer (automatic),29.76,6975.25,No
+LIVE-V6S0CX,Male,0,No,Yes,54,Yes,No phone service,DSL,No internet service,No internet service,Yes,No internet service,No internet service,Yes,One year,No,Mailed check,112.88,3921.1,Yes
+LIVE-XWBGFG,Female,0,No,Yes,1,Yes,No,No,No,Yes,Yes,No,Yes,Yes,Month-to-month,Yes,Bank transfer (automatic),58.12,3653.35,No
+LIVE-SN9GP7,Male,1,Yes,No,48,No,No phone service,No,No,Yes,Yes,No,No,No,One year,Yes,Credit card (automatic),91.9,20.95,Yes
+LIVE-9IN3CI,Female,0,Yes,Yes,16,Yes,No phone service,DSL,Yes,No internet service,No internet service,No internet service,No,No internet service,One year,No,Electronic check,113.88,2531.8,Yes
+LIVE-NDS0L8,Male,0,No,No,52,Yes,No phone service,No,No internet service,No,No,Yes,No internet service,No internet service,Two year,Yes,Credit card (automatic),22.25,2896.4,Yes
+LIVE-BKABBK,Male,0,Yes,Yes,16,No,No phone service,No,No internet service,No internet service,No internet service,No,Yes,No,Month-to-month,Yes,Mailed check,52.89,5769.6,No
+LIVE-TYC0NK,Female,1,No,No,26,Yes,No phone service,DSL,No internet service,No,Yes,Yes,No internet service,Yes,One year,No,Electronic check,75.95,1374.35,No
+LIVE-Z5TL0N,Female,1,No,No,43,No,No,No,No internet service,No,No internet service,No internet service,No internet service,No,One year,No,Credit card (automatic),43.19,4188.4,No
+LIVE-O09DF0,Female,1,Yes,Yes,64,No,No,No,No internet service,No internet service,Yes,Yes,No,No,Two year,Yes,Electronic check,24.57,20.55,No
+LIVE-0IOP5P,Female,1,No,No,65,Yes,No phone service,Fiber optic,No,No internet service,No internet service,Yes,No internet service,No,Month-to-month,Yes,Electronic check,74.47,2448.75,Yes
+LIVE-844B81,Male,1,Yes,Yes,58,Yes,No phone service,No,No,No,No internet service,No,Yes,No internet service,Month-to-month,Yes,Credit card (automatic),67.47,6885.75,No

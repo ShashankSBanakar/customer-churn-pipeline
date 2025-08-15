@@ -1,0 +1,26 @@
+customerID,gender,SeniorCitizen,Partner,Dependents,tenure,PhoneService,MultipleLines,InternetService,OnlineSecurity,OnlineBackup,DeviceProtection,TechSupport,StreamingTV,StreamingMovies,Contract,PaperlessBilling,PaymentMethod,MonthlyCharges,TotalCharges,Churn
+LIVE-40R4FB,Male,0,No,Yes,68,No,Yes,DSL,No internet service,Yes,No internet service,No internet service,Yes,No internet service,One year,No,Mailed check,36.37,2553.35,No
+LIVE-8N15VQ,Female,1,No,No,18,Yes,No,No,No internet service,No,No internet service,No internet service,Yes,No internet service,One year,Yes,Electronic check,49.08,4138.7,Yes
+LIVE-MLOWF6,Male,0,Yes,No,63,No,No,Fiber optic,No internet service,No internet service,No internet service,No,No internet service,No,Two year,No,Electronic check,63.24,552.65,No
+LIVE-V82CF4,Female,1,Yes,No,58,Yes,No,No,No,No,Yes,No,No internet service,No internet service,Month-to-month,Yes,Mailed check,91.22,2200.7,Yes
+LIVE-R33IS1,Female,1,Yes,No,66,Yes,No phone service,Fiber optic,Yes,Yes,Yes,No internet service,No internet service,No,One year,Yes,Electronic check,86.59,2585.95,Yes
+LIVE-V3EEUW,Female,1,Yes,Yes,4,Yes,Yes,Fiber optic,Yes,Yes,Yes,No internet service,Yes,Yes,One year,No,Electronic check,90.3,147.8,Yes
+LIVE-Q3T0J8,Female,0,No,No,28,No,No,Fiber optic,No internet service,Yes,No,Yes,Yes,Yes,Two year,Yes,Mailed check,64.13,4738.3,Yes
+LIVE-J7TFE0,Male,1,No,Yes,71,No,Yes,DSL,Yes,No internet service,No internet service,No internet service,No internet service,No internet service,One year,Yes,Mailed check,85.6,452.55,Yes
+LIVE-ZOZVLI,Male,0,Yes,No,34,Yes,Yes,DSL,No,Yes,No,Yes,No internet service,No internet service,Two year,Yes,Electronic check,54.47,2964.8,No
+LIVE-VRUJ9C,Male,1,Yes,No,62,Yes,No,No,Yes,Yes,Yes,No internet service,No internet service,Yes,One year,No,Electronic check,112.76,32.7,No
+LIVE-UT9SRN,Male,1,No,No,11,No,Yes,DSL,Yes,No,Yes,Yes,Yes,No,Month-to-month,Yes,Bank transfer (automatic),87.31,3723.65,Yes
+LIVE-BT5ZEQ,Male,0,Yes,Yes,43,No,No phone service,DSL,No internet service,No,No internet service,No internet service,No,Yes,Month-to-month,Yes,Credit card (automatic),59.47,165.5,Yes
+LIVE-69OX3P,Male,0,Yes,No,54,Yes,No,Fiber optic,Yes,No,No,No internet service,No,No,Two year,No,Electronic check,65.06,6448.05,Yes
+LIVE-V0VCQD,Male,1,No,Yes,26,Yes,No,No,No internet service,No internet service,No internet service,No,No,Yes,Two year,No,Mailed check,85.59,4149.45,No
+LIVE-2TH1R8,Male,0,No,No,18,Yes,No phone service,DSL,No internet service,Yes,No,Yes,Yes,Yes,One year,No,Credit card (automatic),85.77,5552.5,Yes
+LIVE-GRYZY9,Male,0,No,Yes,5,Yes,No,DSL,No,No internet service,Yes,Yes,Yes,Yes,One year,No,Mailed check,51.46,25.4,Yes
+LIVE-VDQZM6,Female,0,Yes,No,69,Yes,Yes,DSL,No internet service,Yes,No internet service,Yes,No internet service,No,Two year,No,Credit card (automatic),110.33,635.9,No
+LIVE-Q21ZEE,Female,0,No,Yes,67,Yes,Yes,No,No,No,No,Yes,No,No,Month-to-month,No,Credit card (automatic),47.83,1911.5,No
+LIVE-MB2C37,Male,1,Yes,No,39,Yes,No phone service,DSL,No,Yes,Yes,No internet service,Yes,Yes,One year,No,Mailed check,55.11,1060.2,No
+LIVE-CM35CG,Male,1,No,Yes,68,No,No,No,No internet service,No internet service,Yes,No,No,No internet service,Two year,No,Bank transfer (automatic),85.05,1752.65,Yes
+LIVE-BK40JO,Male,0,Yes,No,58,No,Yes,No,No,Yes,Yes,No internet service,No,No internet service,One year,Yes,Bank transfer (automatic),113.92,2193,Yes
+LIVE-TNVJP2,Male,1,Yes,No,53,Yes,No,Fiber optic,No internet service,Yes,Yes,Yes,Yes,No internet service,Month-to-month,Yes,Credit card (automatic),56.22,8349.7,Yes
+LIVE-G0LY4R,Female,1,Yes,No,33,Yes,No phone service,DSL,No,No internet service,No,No internet service,Yes,No,One year,No,Bank transfer (automatic),86.99,2460.35,No
+LIVE-2V91NB,Female,0,No,No,33,No,Yes,Fiber optic,No internet service,No internet service,No internet service,No,No internet service,No internet service,Two year,No,Bank transfer (automatic),52.1,3807.35,No
+LIVE-E5T8L2,Male,0,Yes,Yes,2,No,No,No,No internet service,No,No internet service,No internet service,No internet service,Yes,Two year,Yes,Electronic check,52.83,1252,No
