@@ -9,3 +9,4 @@ data/transformed/
 data_validation_reports/
 models/
 data_version_log.yaml
+reports/

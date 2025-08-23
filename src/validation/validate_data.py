@@ -10,9 +10,12 @@ from src.utils.data_versioning import log_data_version
 from src.ingestion.ingest_static import fetch_static_data
 from src.ingestion.ingest_live import generate_live_data
 
-MASTER_PATH = "data/raw/combined/master_combined_raw_data.csv"
+MASTER_DIR = "data/raw/combined/"
+MASTER_FILE = os.path.join(MASTER_DIR, "master_combined_raw_data.csv")
+
 REPORT_PATH = "data_validation_reports/"
 os.makedirs(REPORT_PATH, exist_ok=True)
+os.makedirs(MASTER_DIR, exist_ok=True)
 
 # Expected domains for categorical columns
 EXPECTED_CATEGORIES = {
@@ -79,7 +82,6 @@ def validate(df: pd.DataFrame) -> pd.DataFrame:
     """
     report = []
 
-     # Data Type Checks
     for col, expected_type in EXPECTED_SCHEMA.items():
         if col in df.columns:
             actual_type = str(df[col].dtype)
@@ -98,20 +100,16 @@ def validate(df: pd.DataFrame) -> pd.DataFrame:
         else:
             report.append((f"Missing - {col}", "Pass", "No missing values"))
 
-    # Integrity Checks
-    # Null ID
     if df["customerID"].isnull().any():
         report.append(("Integrity - Null ID", "Fail", "Null customerID found"))
     else:
         report.append(("Integrity - Null ID", "Pass", "No null customerIDs"))
 
-    # Duplicate ID
     if df["customerID"].duplicated().any():
         report.append(("Integrity - Duplicates", "Fail", "Duplicate customerID found"))
     else:
         report.append(("Integrity - Duplicates", "Pass", "No duplicate customerIDs"))
 
-    # Range Checks
     for col, (low, high) in EXPECTED_RANGES.items():
         if col in df.columns:
             below = (df[col] < low).sum()
@@ -134,6 +132,7 @@ def validate(df: pd.DataFrame) -> pd.DataFrame:
 
     return pd.DataFrame(report, columns=["Check", "Status", "Details"])
 
+
 def get_latest_file(folder: str, pattern: str) -> str:
     """
     Return the latest file in folder matching pattern.
@@ -142,12 +141,12 @@ def get_latest_file(folder: str, pattern: str) -> str:
     files = glob.glob(os.path.join(folder, pattern))
     if not files:
         raise FileNotFoundError(f"No files found in {folder} matching {pattern}")
-    return max(files, key=os.path.getctime)  # newest based on creation time
+    return max(files, key=os.path.getctime)
 
 
 def main():
 
-    if not os.path.exists(MASTER_PATH):
+    if not os.path.exists(MASTER_FILE):
         logging.info("[VALIDATION] Master raw data not found. Creating fresh master raw data...")
 
         static_file = get_latest_file("data/raw/static", "*static_data.csv")
@@ -168,24 +167,23 @@ def main():
         if (report_df["Status"] == "Fail").any():
             logging.error("[VALIDATION] Validation failed. Master not created. See report.")
         else:
-            combined_df.to_csv(MASTER_PATH, index=False)
+            combined_df.to_csv(MASTER_FILE, index=False)
             logging.info(f"[VALIDATION] Master data created. Rows: {len(combined_df)}")
-            logging.info(f"[VALIDATION] Master dataset saved at: {MASTER_PATH}")
+            logging.info(f"[VALIDATION] Master dataset saved at: {MASTER_FILE}")
             log_data_version(
                 dataset_name="master_combined_raw_data.csv",
-                file_path=MASTER_PATH,
+                file_path=MASTER_FILE,
                 source="static data, live data",
                 changelog="updated master_data with static and live data."
             )
     else:
         logging.info("[VALIDATION] Master data found. Appending new live data...")
-        master_df = pd.read_csv(MASTER_PATH)
+        master_df = pd.read_csv(MASTER_FILE)
 
         live_file = get_latest_file("data/raw/live", "*live_data.csv")
         logging.info(f"[VALIDATION] Using latest live data: {live_file}")
         live_df = pd.read_csv(live_file)
 
-        # Validate live data first
         live_report = validate(live_df)
         filename = os.path.join(REPORT_PATH, f"{datetime.now().strftime('%Y-%m-%d_%H:%M:%S')} validation_report_live_data.csv")
         live_report.to_csv(filename, index=False)
@@ -205,12 +203,12 @@ def main():
         if (report_df["Status"] == "Fail").any():
             logging.error("[VALIDATION] Combined data invalid. Master not updated. See report.")
         else:
-            new_master.to_csv(MASTER_PATH, index=False)
+            new_master.to_csv(MASTER_FILE, index=False)
             logging.info(f"[VALIDATION] Master updated. Rows: {len(new_master)}")
-            logging.info(f"[VALIDATION] Master dataset saved at: {MASTER_PATH}")
+            logging.info(f"[VALIDATION] Master dataset saved at: {MASTER_FILE}")
             log_data_version(
                 dataset_name="master_combined_raw_data.csv",
-                file_path=MASTER_PATH,
+                file_path=MASTER_FILE,
                 source="static data, live data",
                 changelog="updated master_data with live data."
             )
