@@ -1,0 +1,11 @@
+dmml_venv_py310/
+__pycache__/
+adhoc.ipynb
+logs/
+*.log
+data/processed/
+data/raw/
+data/transformed/
+data_validation_reports/
+models/
+data_version_log.yaml
